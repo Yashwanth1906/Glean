@@ -1,4 +1,4 @@
-# 🧹 GLEAN - Go Local Environment Auto Node_modules Cleaner
+# 🧹 GLEAN
 
 **GLEAN** is a blazing-fast, concurrent CLI tool written in Go that **recursively finds and deletes all `node_modules` folders** (or any other bloated folders) in a given directory.  
 It’s perfect for developers who want to **free up gigabytes of disk space** from old, unused projects without hunting folders one by one.
