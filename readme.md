@@ -31,10 +31,16 @@ go install github.com/Yashwanth1906/Glean/cmd/glean@latest
 glean --path=dir_you_want_to_delete --target=directory_that_you_want_delete --dry-run=true
 ```
 
+Output:
+![image](https://github.com/user-attachments/assets/6f408d56-938f-4849-bbb8-5f5484504389)
+
 - Deletion Mode:
   
 ```bash
 glean --path=dir_you_want_to_delete --target=directory_that_you_want_delete --workers=no_of_workers_you_want_use
 ```
+
+Output:
+![image](https://github.com/user-attachments/assets/5cbe95a1-15fb-4016-beda-abaa662afc58)
 
 That's it you can use my tool easily...
