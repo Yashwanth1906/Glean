@@ -5,17 +5,17 @@ It’s perfect for developers who want to **free up gigabytes of disk space** fr
 
 ---
 
-## ⚡ Why GLEAN?
+## Why GLEAN?
 
-- 🔍 Recursively scans large directories
-- ⚙️ Deletes folders using a **parallel worker pool (goroutines)**
-- 💨 Cleans your system **faster than traditional shell scripts**
-- 🧪 Supports `--dry-run` mode for safe previews
-- 🔧 Customizable: set your own folder name, worker count
+- Recursively scans large directories
+- Deletes folders using a **parallel worker pool (goroutines)**
+- Cleans your system **faster than traditional shell scripts**
+- Supports `--dry-run` mode for safe previews
+- Customizable: set your own folder name, worker count
 
 ---
 
-## 🚀 Installation
+## Installation
 
 > Requires **Go 1.16+**
 
