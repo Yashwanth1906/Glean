@@ -21,24 +21,20 @@ It’s perfect for developers who want to **free up gigabytes of disk space** fr
 
 ```bash
 go install github.com/Yashwanth1906/Glean/cmd/glean@latest
-
-
-This installs the `glean` binary to your `$GOPATH/bin` directory.
-
-
-# Make sure to add $GOPATH/bin to your PATH
-
-export PATH=$PATH:$GOPATH/bin
-``` 
+```
 
 ## 🛠 Usage
 
-```bash
 - Dry Run Mode:
 
-glean --path=/home/user/projects --target=node_modules --dry-run=true
+```bash
+glean --path=dir_you_want_to_delete --target=directory_that_you_want_delete --dry-run=true
+```
 
 - Deletion Mode:
-
-glean --path=/home/user/projects --target=node_modules --workers=8
+  
+```bash
+glean --path=dir_you_want_to_delete --target=directory_that_you_want_delete --workers=no_of_workers_you_want_use
 ```
+
+That's it you can use my tool easily...
